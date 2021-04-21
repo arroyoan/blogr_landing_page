@@ -190,7 +190,7 @@ button:hover {
 }
 
 .section__start h1,
-h3 {
+.section__start h3 {
   color: var(--vdrk-blue-headings);
 }
 
@@ -265,6 +265,83 @@ h3 {
   color: rgba(255, 255, 255, 0.856);
   line-height: 2;
   font-size: 16px;
+}
+
+.section__end {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  margin-top: 250px;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Overpass", sans-serif;
+}
+
+.end__img {
+  position: absolute;
+  top: -20%;
+  left: -19%;
+}
+
+.end__text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 30px;
+}
+
+.inner__div {
+  width: 70%;
+}
+.end__text h3 {
+  color: var(--vdrk-blue-headings);
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+
+.end__text p {
+  font-size: 16px;
+  line-height: 2;
+  padding-bottom: 55px;
+  color: rgba(0, 0, 0, 0.849);
+}
+
+.footer {
+  background-color: var(--vdrk-blk-blue-footer-bkg);
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  border-radius: 0px 90px 0px 0px;
+  margin-top: 60px;
+  padding: 70px 200px;
+
+  font-family: "Ubuntus", sans-serif;
+}
+
+.list__header {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.list__item {
+  padding-bottom: 15px;
+  color: var(--gry-blue-footer-text) !important;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 769) {
