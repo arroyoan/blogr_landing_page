@@ -24,28 +24,45 @@
             <img src="/images/logo.svg" alt="">
           </div>
           <div class="nav__items">
-            <div class="nav__dropdown">
-              <button class="dropdown__button">Products</button>
-              <!-- Overview
-                Pricing
-                Marketplace
-                Features
-                Integrations -->
+            <!--Products dropdown menu-->
+            <div class="nav__dropdown" >
+              <div class="dropdown__menu" >
+                <button class="dropdown__button" data-menu-target="#products_dropdown">Products</button>
+                <ul class="dropdown__items" id="products_dropdown">
+                  <li> <a href="#">Over</a> </li>
+                  <li> <a href="#">Pricing</a> </li>
+                  <li> <a href="#">Marketplace</a> </li>
+                  <li> <a href="#">Features</a> </li>
+                  <li> <a href="#">Integrations</a> </li>
+                </ul>
+              </div>
               <img src="/images/icon-arrow-light.svg" alt="">
             </div>
-            <div class="nav__dropdown">
-              <button class="dropdown__button">Company</button>
-              <!-- About
-                Team
-                Blog
-                Careers -->
+
+            <!-- company dropdown menu-->
+            <div class="nav__dropdown" >
+              <div class="dropdown__menu" >
+                <button class="dropdown__button" data-menu-target="#company_dropdown">Company</button>
+                <ul class="dropdown__items" id="company_dropdown" >
+                  <li> <a href="#">About</a> </li>
+                  <li> <a href="#">Team</a> </li>
+                  <li> <a href="#">Blog</a> </li>
+                  <li> <a href="#">Careers</a> </li>
+                </ul>
+              </div>
               <img src="/images/icon-arrow-light.svg" alt="">
             </div>
-            <div class="nav__dropdown">
-              <button class="dropdown__button">Connect</button>
-              <!-- Contact
-                Newsletter
-                LinkedIn -->
+
+            <!--Connect Dropdown Menu-->
+            <div class="nav__dropdown" >
+              <div class="dropdown__menu"  >
+                <button class="dropdown__button" data-menu-target="#connect_dropdown">Connect</button>
+                <ul class="dropdown__items" id="connect_dropdown">
+                  <li> <a href="#">Contact</a> </li>
+                  <li> <a href="#">Newsletter</a> </li>
+                  <li> <a href="#">LinkedIn</a> </li>
+                </ul>
+              </div>
               <img src="/images/icon-arrow-light.svg" alt="">
             </div>
           </div>
@@ -163,5 +180,6 @@
     </div>
   </div>
 
+  <script src="/index.js"></script>
 </body>
 </html>
